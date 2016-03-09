@@ -1,0 +1,39 @@
+﻿{
+  "version": "2.13.5.0",
+  "description": "CsvHelper",
+  "owners": [ "" ],
+  "authors": [ "" ],
+  "copyright": "",
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "configurations": {
+    "Debug": {
+      "compilationOptions": {
+        "define": [ "DEBUG", "TRACE" ]
+      }
+    },
+    "Release": {
+      "compilationOptions": {
+        "define": [ "RELEASE" ],
+        "optimize": true
+      }
+    }
+  },
+
+  "dependencies": {
+  },
+
+  "frameworks": {
+    "dnx451": {
+      "frameworkAssemblies": {
+        "Microsoft.CSharp": "",
+        "System": "",
+        "System.Core": "",
+        "System.Data": "",
+        "System.Xml": ""
+      }
+    }
+  }
+}
